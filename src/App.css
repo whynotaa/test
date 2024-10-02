@@ -1,12 +1,29 @@
 .App {
-  width: 800px;
-  height: 180px;
-  border: 1px solid gray;
-  margin: 10px;
-  text-align: center;
+  width: 1000px;
+  margin: auto;
 }
 
-.pStyle {
-  background-color: yellow;
-  font-size: 24px;
+.Menu {
+  text-align: center;
+  background-color: #f4f873;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.Contents {
+  display: flex;
+  align-items: center; /* 상단 정렬을 맞추기 위해 추가 */
+
+}
+
+.Image {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.Para1 {
+  max-width: auto;
 }
